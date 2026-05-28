@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto site gas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="notificacao" class="alerta-deCompra">
+        Produto adicionado com sucesso! ✅
+    </div>
+
+    <header class="Conteiner-Principal">
+
+        <div class="Titulo-principal">
+
+            <h1 id="Inicio" >Super Agua e Gás</h1>
+        
+        </div>
+
+        <div class="Conteiner-Cabeçalho-Img">
+
+            <img class="img-gas" src="Mascotes-img/IMG-GAS-MASC" alt="">
+
+            <img class="img-agua" src="Mascotes-img/IMG-AGUA-MASCOT.png" alt=""> 
+
+        </div>        
+
+        <nav class="Conteiner-Cabeçalho"> <!--Conteiner para a navegaçao do site(onde leva para conhecer o site)-->
+
+            <ul>
+
+                <li> <a href="#Inicio"> Inicio </a> </li>
+                <li> <a href="#Sobre"> Sobre Nos </a> </li>
+                <li> <a href="#Produtos"> Produtos </a> </li>
+                <li> <a href="#Contato"> Onde Estamos </a> </li>
+
+            </ul>
+
+            <a href="script.js:void(0)" onclick= "Vercarrinho()" class="Carrinho-Produt">Ver Carrinho</a>          
+        
+        </nav>
+
+        <div class="Entrada-site">
+
+            <h3>Bem-vindo à Super Agua e Gás!!!</h3>
+
+        </div>
+        
+
+    </header>
+    
+    <main>
+
+        <section class="Corpo-do-Site">
+            <div>
+
+                <hr class="Linha-Branca">
+
+            </div>
+
+
+            <div class="Conteiner-Corpo-Site">
+
+                <h1>SUPER ÁGUA E GÁS</h1>
+                <h2>PEDIU, CHEGOU. ÁGUA E GÁS AGORA!</h2>
+                <h3>Economize tempo e garanta o melhor preço em um só clique.</h3>
+                <button class="Button-Corpo">Peça em 1 clique!</button>
+
+            </div>
+
+            <h1 id="Produtos" class="Titulo-Produto">Nossos Produtos</h1>
+
+            <section class="Conteiner-Produtos">
+                
+                <article class="Item-Produto">
+                    
+                    <h2>GÁS P13</h2>
+                    <img src="Img-Pordutos/ultragaz-_0002_p13-removebg-preview.png" alt="">
+                    <p>R$ 125,00</p>
+                    <button onclick="adicionarAoCarrinho('Ultras Gas P13', 140, 'Img-Pordutos/ultragaz-_0002_p13-removebg-preview.png')">Solicitar</button>
+
+                </article>
+
+                <article class="Item-Produto">
+
+                    <h2>ULTRAGÁS P13</h2>
+                    <img src="Img-Pordutos/gas-de-cozinha-comum-preco-removebg-preview.png" alt="">
+                    <p>R$ 125,00</p>
+                    <button onclick="adicionarAoCarrinho('Super gas P13', 135, 'Img-Pordutos/gas-de-cozinha-comum-preco-removebg-preview.png')">Solicitar</button>
+
+                </article>
+                
+                <article class="Item-Produto">
+
+                    <h2>ÁGUA 20L</h2>
+                    <img src="Img-Pordutos/Agua-png-img.png" alt="">
+                    <p>R$ 20,00</p>
+                    <button onclick="adicionarAoCarrinho('Agua 20L', 20, 'Img-Pordutos/Agua-png-img.png')">Solicitar</button>
+
+                </article>
+
+                <article class="Item-Produto">
+
+                    <h2>ÁGUA 10L</h2>
+                    <img class="Galao-pequeno" src="Img-Pordutos/Agua-de10-L.png" alt="">
+                    <p>R$ 20,00</p>
+                    <button onclick="adicionarAoCarrinho('Agua de 10L', 15, 'Img-Pordutos/Agua-de10-L.png')">Solicitar</button>
+
+
+                </article>
+
+            </section>
+
+            <section class="Conteiner-Descricao">
+
+                <div class="Paragrafo-Empresa">
+
+                    <h2  >Quem Somos:</h2>
+
+                    <p>
+                        A Super Água e Gás nasceu em Sorocaba com um objetivo simples: levar energia e saúde para a sua família com a agilidade
+                        que o seu dia a dia pede. Fundada em 2021,
+                        nossa empresa se tornou referência no Jardim Moncayo e em toda a região do Gonçalves pela seriedade e pelo compromisso com o cliente. 
+                    </p>
+                        
+                    
+                    <p id="Sobre">
+                        Trabalhamos apenas com o que há de melhor no mercado. Somos revendedores das marcas líderes Supergasbras e Ultragaz, garantindo que o seu botijão P13 chegue com o peso certo e máxima segurança.
+                         Na linha de águas, oferecemos a pureza das marcas Klarina e Dourágua, cuidando da hidratação da sua casa ou empresa.
+                    </p>
+                        
+                    <p>
+                        Por que escolher a Super Água e Gás? <br>
+                            <br>
+                            Entrega Relâmpago: Pediu, chegou! Nossa equipe conhece cada rua da região para garantir que você nunca fique na mão. <br>
+                            <br>
+                            Confiança Familiar: Atendimento feito por quem entende do assunto e respeita o seu lar. <br>
+                            <br>    
+                            Sempre à disposição: Funcionamos de segunda a sábado das 08h às 21h, e aos domingos das 10h às 13h. Nos feriados, na maioria das vezes, estamos prontos para te atender!. <br>
+                    </p>
+
+                    <!--FAZER O CONTADO AQUI id="Contato"-->
+                    
+
+
+                </div>
+
+            </section>
+
+        </section>
+
+
+    </main>
+
+
+    <div id="modal-carrinho" class="painel-carrinho">
+
+        <div class="modal-conteudo"> 
+            <button class="fechar-modal" onclick="FecharCarrinho()">&times;</button>
+            
+            <h2>Pedido !!!</h2>
+
+            <ul id="Lista-Itens"></ul>
+
+            <p>Total: R$ <span id="Valor-Total">0,00</span></p>
+
+            <button class="btn-continuar" onclick="FecharCarrinho()"> Continuar Comprando</button>
+            
+            <button class="btn-whatsapp" onclick="FinalizarPedido()"> Fazer pedido via WhatsApp</button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
