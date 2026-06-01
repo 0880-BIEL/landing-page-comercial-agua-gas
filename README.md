@@ -2,7 +2,7 @@
 
 Landing page profissional desenvolvida para a empresa **Super Água e Gás**, focada em facilitar o pedido de produtos essenciais de forma rápida e intuitiva.
 
-| 🔗 Acesse o site aqui: (https://0880-biel.github.io/landing-page-comercial-g-s-agua/)
+| 🔗 Acesse o site aqui: (https://0880-biel.github.io/landing-page-comercial-agua-gas/)
 
 ---
 
