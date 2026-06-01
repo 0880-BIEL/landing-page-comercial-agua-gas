@@ -1,18 +1,23 @@
 # 💧 Super Água e Gás
+
 Landing page profissional desenvolvida para a empresa **Super Água e Gás**, focada em facilitar o pedido de produtos essenciais de forma rápida e intuitiva.
 
-> **🔗 Acesse o site aqui:** [https://0880-biel.github.io/landing-page-comercial-g-s-agua/]
+| 🔗 Acesse o site aqui: (https://0880-biel.github.io/landing-page-comercial-g-s-agua/)
 
-### 🎯 Diferenciais do Projeto:
-* **Foco em Conversão:** Design pensado para que o cliente encontre o produto e solicite via WhatsApp em poucos cliques.
-* **Interface Limpa:** Cards de produtos organizados com preços claros e botões de chamada para ação (CTA).
-* **Projeto Real:** Desenvolvido para atender uma demanda comercial real de distribuição local.
+---
 
-### 🛠 Tecnologias:
-* **HTML5:** Estrutura organizada por containers para garantir clareza visual.
-* **CSS3:** Estilização personalizada, mantendo a identidade visual da empresa.
-* **Layout Desktop:** Estudo focado na experiência de navegação em computadores.
+## 🚀 O que mudou na Versão Atual (Atualizações):
+* **Nova Identidade Visual:** Ajustes de layout, novas cores e melhoria no design dos cards de produtos.
+* **Carrinho de Compras Concluído:** Sistema em JavaScript (`script.js`) totalmente finalizado, agilizando e facilitando o pedido do cliente.
+* **Organização do Repositório:** Arquivos reestruturados direto na raiz para garantir o funcionamento correto do deploy.
 
-### 📈 Evoluções Futuras:
-* Implementação de carrinho de compras dinâmico com **JavaScript**.
-* Otimização para dispositivos móveis (Responsividade).
+## 🛠️ Tecnologias Utilizadas:
+* **HTML5:** Estrutura limpa e organizada por containers.
+* **CSS3:** Estilização personalizada para a marca.
+* **JavaScript:** Lógica do carrinho de compras e interações dinâmicas.
+
+## 📋 Próximos Passos:
+* **Responsividade:** Ajustar o layout para que o site fique perfeito e totalmente adaptado para telas de celulares (atualmente focado em desktop).
+
+---
+*Desenvolvido para atender uma demanda comercial real de distribuição local.*
